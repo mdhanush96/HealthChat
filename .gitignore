@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtualenv
+venv/
+.venv/
+env/
+
+# Django
+*.pyc
+db.sqlite3
+media/reports/
+
+# Environment
+.env
+
+# HuggingFace model cache
+*.bin
+*.safetensors
+*.json.lock
+transformers_cache/
+hf_cache/
+
+# Streamlit
+.streamlit/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test / coverage
+.pytest_cache/
+htmlcov/
+.coverage
